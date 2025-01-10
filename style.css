@@ -48,3 +48,6 @@ body{
 .input-section button:hover{
  background: #45a049;
 }
+#combined-color-code{
+    direction: ltr !important;
+}
