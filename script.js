@@ -7,5 +7,5 @@ let color2=document.querySelector('#color2');
 
 
 combineBtn.addEventListener('click',function(){
-    colorDisplay.style.background=color1.value;
+    colorDisplay.style.background=`linear-gradient(${color1.value},${color2.value})`;
 })
