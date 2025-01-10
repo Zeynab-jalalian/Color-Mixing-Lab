@@ -7,6 +7,6 @@ let colorCode=document.querySelector('#combined-color-code');
 
 
 combineBtn.addEventListener('click',function(){
-    colorDisplay.style.background=`linear-gradient(${color1.value},${color2.value})`;
+    colorDisplay.style.background=`linear-gradient(45deg,${color1.value},${color2.value})`;
     colorCode.innerHTML=`${color1.value} , ${color2.value}`;
 })
